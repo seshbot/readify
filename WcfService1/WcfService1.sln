@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{01CAB90C-B5FC-48CA-866F-71D9C9BE3B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E23270B4-CBDF-4444-89BA-B7978579AF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{DC98D187-44FE-424B-B1F1-48F494C2AD45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Test", "BusinessLogic.Test\BusinessLogic.Test.csproj", "{1C58A589-B4BE-4720-AB9F-97B28EA3356A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CAB90C-B5FC-48CA-866F-71D9C9BE3B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CAB90C-B5FC-48CA-866F-71D9C9BE3B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CAB90C-B5FC-48CA-866F-71D9C9BE3B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CAB90C-B5FC-48CA-866F-71D9C9BE3B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23270B4-CBDF-4444-89BA-B7978579AF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23270B4-CBDF-4444-89BA-B7978579AF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23270B4-CBDF-4444-89BA-B7978579AF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23270B4-CBDF-4444-89BA-B7978579AF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC98D187-44FE-424B-B1F1-48F494C2AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC98D187-44FE-424B-B1F1-48F494C2AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC98D187-44FE-424B-B1F1-48F494C2AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC98D187-44FE-424B-B1F1-48F494C2AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A589-B4BE-4720-AB9F-97B28EA3356A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A589-B4BE-4720-AB9F-97B28EA3356A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A589-B4BE-4720-AB9F-97B28EA3356A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A589-B4BE-4720-AB9F-97B28EA3356A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cechner.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessLogic.Test\\BusinessLogic.Test.csproj
+		SccProjectName1 = BusinessLogic.Test
+		SccLocalPath1 = BusinessLogic.Test
+		SccProjectUniqueName2 = BusinessLogic\\BusinessLogic.csproj
+		SccProjectName2 = BusinessLogic
+		SccLocalPath2 = BusinessLogic
+		SccProjectUniqueName3 = Client\\Client.csproj
+		SccProjectName3 = Client
+		SccLocalPath3 = Client
+		SccProjectUniqueName4 = WcfService1\\WcfService1.csproj
+		SccProjectName4 = WcfService1
+		SccLocalPath4 = WcfService1
+	EndGlobalSection
+EndGlobal
